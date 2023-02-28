@@ -1,7 +1,3 @@
 # bit10team
-
-
-
-
-
-# Diego Parra
+## Diego Parra
+### Jesús Morán 
