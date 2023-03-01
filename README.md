@@ -17,12 +17,15 @@ El fundamento de este proyecto esta diseñado para demostrar nuestras capacidade
 - React-bootstrap
 
 ### Wireframe Baja
-![WireFrame Baja Login](public/img/ProyectoFinal-login.png)
-![WireFrame Baja Home](public/img/ProyectoFinal-Home.png)
-![WireFrame Baja SN](public/img/ProyectoFinal-SN.png)
+![WireFrame Baja Login](public/img/Login.png)
+![WireFrame Baja Home](public/img/Home.png)
+![WireFrame Baja SN](public/img/SN.png)
 
 ### Estilos y colores
 - #E8F9FD
 - #79DAE8
 - #0AA1DD
 - #2155CD 
+
+### Logo
+![logo](public/img/TintoFrio-removebg-preview.png)
