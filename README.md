@@ -21,11 +21,24 @@ El fundamento de este proyecto esta diseñado para demostrar nuestras capacidade
 ![WireFrame Baja Home](public/img/Home.png)
 ![WireFrame Baja SN](public/img/SN.png)
 
-### Estilos y colores
+### Wireframe Alta
+![WireFrame Alta Login](public/img/Login.jpeg)
+![WireFrame Alta Home](public/img/Home.jpeg)
+![WireFrame Alta Nosotros](public/img/Nosotros.jpeg)
+![WireFrame Alta Contacto](public/img/Contacto.jpeg)
+
+### Estilos y colores TintoFrio Aplicativo Web
 - #E8F9FD
 - #79DAE8
 - #0AA1DD
 - #2155CD 
 
+### Colores Game Library, aplicativo web.
+- #ff0f7b
+- #1a1a37
+- #3023ae
+- #ffffff
+
 ### Logo
-![logo](public/img/TintoFrio-removebg-preview.png)
+![logo TintoFrio](public/img/TintoFrio-removebg-preview.png)
+![logo Library Gamer](public/img/logo%20Library%20Gamer.png)
