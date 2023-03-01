@@ -15,6 +15,11 @@ El fundamento de este proyecto esta diseñado para demostrar nuestras capacidade
 - GitHub
 - Bootstrap
 - React-bootstrap
+- Canva
+- Ninjamock
+- Logos-edit
+- Google Meet (reuniones diarias)
+- Trello (Documentación)
 
 ### Wireframe Baja
 ![WireFrame Baja Login](public/img/Login.png)
@@ -27,7 +32,7 @@ El fundamento de este proyecto esta diseñado para demostrar nuestras capacidade
 ![WireFrame Alta Nosotros](public/img/Nosotros.jpeg)
 ![WireFrame Alta Contacto](public/img/Contacto.jpeg)
 
-### Estilos y colores TintoFrio Aplicativo Web
+### Estilos y colores TintoFrío Aplicativo Web
 - #E8F9FD
 - #79DAE8
 - #0AA1DD
