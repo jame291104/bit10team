@@ -5,6 +5,10 @@ import { Navegation } from './Navegation'
 
 export const Home = () => {
   return (
-    <h1>home</h1>
+    <>
+      <h1>hola mundo</h1>
+      <Header/>
+      <Footer/>
+    </>
   )
 }

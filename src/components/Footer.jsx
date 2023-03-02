@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <section>
+      <h1>This is Footer</h1>
+    </section>
   )
 }
