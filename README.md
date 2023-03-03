@@ -1,7 +1,7 @@
 # Bit10team
 ## Gamer Library
-### Descripción
-El fundamento de este proyecto esta diseñado para demostrar nuestras capacidades con las tecnologias propuestas por BIT 2022 - 23.
+### Descripción de la página:
+Desde Gamer library sabemos que hablar de videojuegos no es referirse a un público infantil. Se debe mirar integralmente e incluir a distintos públicos y franjas etarias por ello queremos brindar un espacio agradable donde es posible conectarse con otras personas y visitar distintos sitios dentro de los videojuegos, de esta manera elegir que gamer serás; entendemos que la cultura digital es la práctica y no el objeto. El foco no está solamente en cómo muestro el juego, en qué veo, cómo lo ilumino o cómo lo instalo. Hay que pensar en cómo el usuario vive la experiencia.
 ### Autores
 - Jesús Morán (Lider del equipo, encargado del repositorio y control de versiones en Git y Github)
 - Diego Parra (Encargado de Los Wirefrime de baja y alta)
