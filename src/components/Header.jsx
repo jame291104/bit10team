@@ -27,4 +27,4 @@ export const Header = () => {
     </div>
   )
 }
-export default Home
+export default Header;

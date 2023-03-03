@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
 export const AboutUs = () => {
   return (
-    <div className='d-flex flex-row justify-content-around'>
-      <figure>
-        <img src="./public/img/logoLibraryGamer.png" alt="Logo Library Gamer"
-             width={120}
-             height={120} 
-             />
-      </figure>
-    
+    <>
+    <Header/>
+    <div>
+      <h1>Esto es ns</h1>
     </div>
+    <Footer/>
+    </>
+    
   )
 }
 export default AboutUs
