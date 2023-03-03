@@ -6,6 +6,7 @@ Desde Gamer library sabemos que hablar de videojuegos no es referirse a un públ
 - Jesús Morán (Lider del equipo, encargado del repositorio y control de versiones en Git y Github)
 - Diego Parra (Encargado de Los Wirefrime de baja y alta)
 - Sebastián Layos (Encargado de la documentación del proyecto)
+- - Yessica Camargo ("Renderización Footer")
 ### Tecnologías
 - HTML
 - CSS
