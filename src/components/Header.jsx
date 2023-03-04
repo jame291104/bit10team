@@ -20,7 +20,7 @@ export const Header = () => {
         </Link>
         <Link
           className="h4 p-3 text-decoration-none" 
-          to='/AboutUs'>Nosotros
+          to='/AboutUs'>About Us
         </Link>
         </div>
       </nav>     

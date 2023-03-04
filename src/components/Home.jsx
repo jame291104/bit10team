@@ -29,9 +29,9 @@ export const Home = () => {
   return (
     <>
       <Header/>
-      <div>
-        <h1>Bienvenido a Library Gamer</h1>
-        <h4>Tenemos más de 300 juegos para tí</h4>
+      <div className='m-5 row justify-content-center'>
+        <h1 className='text-center'>Welcome to Library Gamer</h1>
+        <h4 className='text-center'>We have more than 300 games for you</h4>
         {
           game.map((game) => <Card className='m-4' key={game.id} style={{ width: '18rem' }}>
           <Card.Img variant="top" src={game.thumbnail} />
@@ -40,13 +40,13 @@ export const Home = () => {
             <Card.Text>{game.short_description}</Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroup.Item>Desarrollado por: {game.developer}</ListGroup.Item>
-            <ListGroup.Item>Lanzado en: {game.release_date}</ListGroup.Item>
-            <ListGroup.Item>Genero: {game.genre}</ListGroup.Item>
+            <ListGroup.Item>Developed by: {game.developer}</ListGroup.Item>
+            <ListGroup.Item>Release date: {game.release_date}</ListGroup.Item>
+            <ListGroup.Item>Genre: {game.genre}</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Card.Link href={game.game_url}>Instalar</Card.Link>
-            <Card.Link href={game.freetogame_profile_url}>Ver más</Card.Link>
+            <Card.Link href={game.game_url}>Download</Card.Link>
+            <Card.Link href={game.freetogame_profile_url}>See more</Card.Link>
           </Card.Body>
         </Card>)
         }
