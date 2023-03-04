@@ -34,7 +34,7 @@ export const Home = () => {
         <h4 className='text-center'>We have more than 300 games for you</h4>
         {
           game.map((game) => <Card className='m-4' key={game.id} style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={game.thumbnail} />
+          <Card.Img className='py-3' variant="top" src={game.thumbnail} />
           <Card.Body>
             <Card.Title>{game.title}</Card.Title>
             <Card.Text>{game.short_description}</Card.Text>
