@@ -30,23 +30,24 @@ export const Home = () => {
     <>
       <Header/>
       <div className='m-5 row justify-content-center'>
-        <h1 className='text-center'>Welcome to Library Gamer</h1>
-        <h4 className='text-center'>We have more than 300 games for you</h4>
+        <h1 className='text-center text-light'>Welcome to Library Gamer</h1>
+        <h4 className='text-center text-light'>We have more than 300 games for you</h4>
+        <input type="text" placeholder='Search' className='form-control my-5'/>
         {
-          game.map((game) => <Card className='m-4' key={game.id} style={{ width: '18rem' }}>
+          game.map((game) => <Card className='m-4 bg-dark' key={game.id} style={{ width: '18rem' }}>
           <Card.Img className='py-3' variant="top" src={game.thumbnail} />
           <Card.Body>
-            <Card.Title>{game.title}</Card.Title>
-            <Card.Text>{game.short_description}</Card.Text>
+            <Card.Title className='text-light'>{game.title}</Card.Title>
+            <Card.Text className='text-light'>{game.short_description}</Card.Text>
           </Card.Body>
-          <ListGroup className="list-group-flush">
+          <ListGroup className="list-group-flush bg-dark">
             <ListGroup.Item>Developed by: {game.developer}</ListGroup.Item>
             <ListGroup.Item>Release date: {game.release_date}</ListGroup.Item>
             <ListGroup.Item>Genre: {game.genre}</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Card.Link href={game.game_url}>Download</Card.Link>
-            <Card.Link href={game.freetogame_profile_url}>See more</Card.Link>
+            <Card.Link className='text-light text-decoration-none' href={game.game_url}>Download</Card.Link>
+            <Card.Link className='text-light text-decoration-none' href={game.freetogame_profile_url}>See more</Card.Link>
           </Card.Body>
         </Card>)
         }
