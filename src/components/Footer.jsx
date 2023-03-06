@@ -3,26 +3,56 @@ import { Link } from 'react-router-dom'
 
 
 
+
 export const Footer = () => {
   return (
-    <div className='d-flex d-block flex-row justify-context-around py-4 bg-dark text-white'>
-      <h1>Envíanos un mensaje</h1>
-      <div className='d-flex d-block flex-row justify-context-around'> 
-      <h1> github linkedin  </h1>
+    <div className='d-flex d-block flex-row justify-content-around py-4 bg-dark text-white border border-info rounded'>
+      <div>
+        <img 
+        src="./public/img/logoLibraryGamer.png" 
+        alt="logo Library Gamer"
+        className='rounded-circle'
+        width={120}
+        height={120} 
+        />
       </div>
       <div>
-      <h2>Docente: Javier García</h2>
-      <p>BIT 2023
-        Bogotá D.C - Colombia
-      </p>
+        <h4>Docente:<br /> Javier Garzón</h4>
+        <p>BIT 2023<br/>
+           Bogotá D.C - Colombia
+        </p>
       </div>
-      <div>
-      <p>
-        sebastianlayos23@gmail.com 
-        jame291104@gmail.com 
-        yessicacamargo15@gmail.com 
-        parradiego169@gmail.com 
-      </p>
+      <div className='d-flex align-items-center '> 
+        <h4>Envíanos un mensaje</h4>
+      </div>
+      <div className='d-flex flex-column justify-content-around' >
+        <ul className='list-unstyled'>
+          <li>
+            <a href="mailto:yessicacamargo15@gmail.com" 
+               id="correoformulario"
+               className='text-decoration-none text-white'
+               >Yessica Camargo
+               </a> 
+          </li>
+          <li>
+            <a href="mailto:jame291104@gmail.com"
+               id="correoformulario"
+               className='text-decoration-none text-white'
+               >Jesús Morán</a>
+          </li>
+          <li>
+            <a href="mailto:ebastianlayos23@gmail.com"
+               id="correoformulario"
+               className='text-decoration-none text-white'
+               >Sebastián Layos</a> 
+          </li>
+          <li>
+            <a href="mailto:parradiego169@gmail.com"
+               id="correoformulario"
+               className='text-decoration-none text-white'
+               >Diego Parra</a>
+          </li>
+        </ul>
       </div>
     </div>
     
