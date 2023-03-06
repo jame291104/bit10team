@@ -17,13 +17,13 @@ export const Footer = () => {
         />
       </div>
       <div>
-        <h4>Docente:<br /> Javier Garzón</h4>
+        <h4>Teacher:<br /> Javier Garzón</h4>
         <p>BIT 2023<br/>
            Bogotá D.C - Colombia
         </p>
       </div>
       <div className='d-flex align-items-center '> 
-        <h4>Envíanos un mensaje</h4>
+        <h4>Send a Message</h4>
       </div>
       <div className='d-flex flex-column justify-content-around' >
         <ul className='list-unstyled'>
