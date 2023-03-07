@@ -8,22 +8,21 @@ export const Favorite = ({}) => {
     const [game, setGame] = useState({id: null, name:''})
     const [games, setGames] = useState([])
   
+    
 const handleName = (e) =>{
     setGame({ ...game, id: uuidv4(), name: e.target.value})
-    console.log(game);
 }
  const handleButton = (e) => {
     e.preventDefault();
-    setGames([...games, game])
-    
- }
- 
-    console.log([games]);
+    if (!game.name) {
+    alert("Datos incompletos.");
+    return;
+  }
+  setGames([...games, game])
+  setGame({id:"", name:""})   
+ };
 
 
-
-
-  
     return (
     <>
     <Header/>
@@ -32,7 +31,7 @@ const handleName = (e) =>{
         <input type='text' placeholder='Nombre de Juego' onInput={handleName} value={game.name} />
         <button onClick={handleButton}>Agregar</button>
     </form>
-    <ListFavorite game={game} setGame={setGame} games={games} setGames={setGames}  />
+    <ListFavorite games={games} setGames={setGames} game={game} />
     <Footer/>
     </>
   )

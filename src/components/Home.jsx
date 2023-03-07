@@ -39,9 +39,6 @@ export const Home = () => {
           <Card.Body>
             <Card.Title className='text-light'>{game.title}</Card.Title>
             <Card.Text className='text-light'>{game.short_description}</Card.Text>
-            {/* <Card.check> Agregar a favoritos. 
-              
-              </Card.check> */}
           </Card.Body>
           <ListGroup className="list-group-flush bg-dark">
             <ListGroup.Item>Developed by: {game.developer}</ListGroup.Item>
