@@ -6,7 +6,8 @@ import { Navegation } from './components/Navegation';
 function App() {
 
   return (
-      <Navegation/>
+        <Navegation/>
+        
   )
 }
 

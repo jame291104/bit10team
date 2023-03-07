@@ -1,0 +1,37 @@
+.fondo {
+    background-image: url(https://t3.ftcdn.net/jpg/04/71/00/20/360_F_471002062_tCBbTqeeMhHgMfCW86mQhdgpETooy3ID.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parrafoAU{
+    margin: 10px;
+    background-color: #286eaa;
+    letter-spacing: 2px;
+    color: #88d3f5;
+    border: #88d3f5 solid 3px ;
+    border-radius: 15px;
+
+}
+.h1AU{
+    color: #286eaa;
+}
+.aAU{
+    text-decoration: none;
+    color: #286eaa;
+}
+.tdAU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgAU{
+    border-radius: 15px;
+    margin-top: 80px;
+}
+.pAU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -36,41 +36,110 @@ export const Header = () => {
               width={1800}
               height={600}
               src="./public/img/Forza.jpeg"
-              alt="First slide"
+              alt="Primera Imagen"
             />
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
             <img
               className="d-block w-100"
               width={1800}
               height={600}
               src="./public/img/fallguys.png"
-              alt="Second slide"
+              alt="Segunda Imagen"
             />
-
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
             <img
               className="d-block w-100"
               width={1800}
               height={600}
               src="./public/img/forniteDJ.jpg"
+              alt="Tercera Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/valorant.webp"
+              alt="Cuarta Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/TLOUP1.jpeg"
+              alt="Quinta Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/RE2.jpeg"
+              alt="Sexta Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/overwatch2.webp"
+              alt="Septima Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/NIER.jpeg"
+              alt="Octava Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/CODW.jpeg"
+              alt="Novena Imagen"
+            />
+            </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/pubgimage.webp"
               alt="Third slide"
             />
-
-            <Carousel.Caption>
-              <h3></h3>
-              <p></p>
-            </Carousel.Caption>
             </Carousel.Item>
+
+            <Carousel.Item>
+            <img
+              className="d-block w-100"
+              width={1800}
+              height={600}
+              src="./public/img/apex.jpeg"
+              alt="Third slide"
+            />
+            </Carousel.Item>
+
           </Carousel>  
         </div> 
       </div>  

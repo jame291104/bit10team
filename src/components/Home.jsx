@@ -47,6 +47,7 @@ export const Home = () => {
   
   return (
     <>
+    <main className='fondo'>
       <Header/>
       <div className='m-5 row justify-content-center'>
         <h1 className='text-center text-light'>Welcome to Library Gamer</h1>
@@ -60,18 +61,19 @@ export const Home = () => {
             <Card.Text className='text-light'>{game.short_description}</Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush bg-dark">
-            <ListGroup.Item>Developed by: {game.developer}</ListGroup.Item>
-            <ListGroup.Item>Release date: {game.release_date}</ListGroup.Item>
-            <ListGroup.Item>Genre: {game.genre}</ListGroup.Item>
+            <ListGroup.Item className="bg-dark text-light">Developed by: {game.developer}</ListGroup.Item>
+            <ListGroup.Item className="bg-dark text-light">Release date: {game.release_date}</ListGroup.Item>
+            <ListGroup.Item className="bg-dark text-light">Genre: {game.genre}</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Card.Link target={'_blank'} className='text-light text-decoration-none' href={game.game_url}>Download</Card.Link>
-            <Card.Link target={'_blank'} className='text-light text-decoration-none' href={game.freetogame_profile_url}>See more</Card.Link>
+            <Card.Link target={'_blank'} className='text-info text-decoration-none' href={game.game_url}>Download</Card.Link>
+            <Card.Link target={'_blank'} className='text-info text-decoration-none' href={game.freetogame_profile_url}>See more</Card.Link>
           </Card.Body>
         </Card>)
         }
       </div>
       <Footer/>
+      </main>
     </>
 
   )
