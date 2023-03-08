@@ -25,6 +25,10 @@ export const Header = () => {
               className="h4 p-3 text-decoration-none text-light" 
               to='/AboutUs'>About Us
             </Link>
+            <Link
+              className="h4 p-3 text-decoration-none text-light" 
+              to='/Favorites'>Favorites
+            </Link>
             </div>
           </nav>
         </div>
