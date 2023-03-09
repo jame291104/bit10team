@@ -46,5 +46,5 @@ Desde Gamer library sabemos que hablar de videojuegos no es referirse a un públ
 - #ffffff
 
 ### Logo
-![logo TintoFrio](public/img/TintoFrio-removebg-preview.png)
-![logo Library Gamer](public/img/logo%20Library%20Gamer.png)
+![logo TintoFrio](public/img/TintoFrio.png)
+![logo Library Gamer](public/img/logoLibraryGamer.png)
