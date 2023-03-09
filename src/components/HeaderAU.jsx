@@ -7,7 +7,7 @@ export const HeaderAU = () => {
       <div id='contenedor' className='d-flex flex-column p-1'>
         <div id='navegacion' className='d-flex flex-row justify-content-around border border-info rounded'>
           <figure>
-            <img src="./public/img/logoLibraryGamer.png" alt="Logo Library Gamer"
+            <img src="/public/img/logoLibraryGamer.png" alt="Logo Library Gamer"
                 className='rounded-circle'
                 width={120}
                 height={120} 
