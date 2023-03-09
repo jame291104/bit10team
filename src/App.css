@@ -1,1 +1,107 @@
+.fondo {
+    background-image: url(https://t3.ftcdn.net/jpg/04/71/00/20/360_F_471002062_tCBbTqeeMhHgMfCW86mQhdgpETooy3ID.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parrafoAU{
+    margin: 10px;
+    background-color: #286eaa;
+    letter-spacing: 2px;
+    color: #88d3f5;
+    border: #88d3f5 solid 3px ;
+    border-radius: 15px;
 
+}
+.h1AU{
+    color: #286eaa;
+}
+.aAU{
+    text-decoration: none;
+    color: #286eaa;
+}
+.psAU{
+    background-color: #88d3f5;
+    border: solid 3px #286eaa;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.tdAU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgAU{
+    border-radius: 15px;
+    margin-top: 80px;
+}
+.pAU{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedorhijofav{
+    min-height: 100%;
+    height: max-content;
+}
+.fondofav{
+    background-image: url(https://t3.ftcdn.net/jpg/04/71/00/20/360_F_471002062_tCBbTqeeMhHgMfCW86mQhdgpETooy3ID.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    height: max-content;
+    padding-bottom: 30px;
+}
+.hfav{
+    padding: 100px 0 30px 0;
+    color: aliceblue;
+}
+.stylelist{
+    padding: 30px 100px 0px 100px;
+}
+.stylelistUL{
+    margin-left: 100px;
+
+}
+.inputfav{
+    padding: 0px 50px 0px 50px;
+    background-color: #5557c0bb;
+    color: #e6a7de;
+    border: solid 2px rgb(236, 223, 223);
+    border-radius: 10px;
+}
+.listaLI{
+    color: #e6a7de;
+    border: rgb(236, 223, 223) solid 2px;
+    border-radius: 5px;
+    background-color: #5557c0bb;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 50px;
+    max-width: 100%;
+    min-width: 80%;
+    width: max-content;
+}
+.botonesLI{
+    border-radius: 20px;
+    margin: 5px;
+}
+.inputfavRN{
+    padding: 0px 50px 0px 50px;
+    background-color: #5557c0bb;
+    color: #e6a7de;
+    border: solid 2px rgb(236, 223, 223);
+    border-radius: 10px;
+    
+}
+.picono{
+    margin: -40px;
+    padding-right: 20px;
+    border: 0;
+}
+.carrusel{
+    border: solid;
+}
