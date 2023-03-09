@@ -23,20 +23,20 @@ export const Header = () => {
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/AboutUs'>About Us
+              to='/Favorites'>Favorites
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/Favorites'>Favorites
+              to='/AboutUs'>About Us
             </Link>
             </div>
           </nav>
         </div>
         <div id='carrusel'>
           <Carousel className='p-2'>
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/Forza.jpeg"
@@ -44,9 +44,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/fallguys.png"
@@ -54,9 +54,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/forniteDJ.jpg"
@@ -64,9 +64,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/valorant.webp"
@@ -74,9 +74,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/TLOUP1.jpeg"
@@ -84,9 +84,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/RE2.jpeg"
@@ -94,9 +94,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/overwatch2.webp"
@@ -104,9 +104,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/NIER.jpeg"
@@ -114,9 +114,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/CODW.jpeg"
@@ -124,9 +124,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/pubgimage.webp"
@@ -134,9 +134,9 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item className='border border-info'>
             <img
-              className="d-block w-100"
+              className="d-block w-100 p-1"
               width={1800}
               height={600}
               src="./public/img/apex.jpeg"

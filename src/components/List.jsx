@@ -8,8 +8,8 @@ export const List = ({ language, setLanguage, rename, setRename}) => {
   ));
 
   return (
-    <div>
-      <ul className='list-group'>{elements}</ul>
+    <div className='stylelist'>
+      <ul className='list-group stylelistUL'>{elements}</ul>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react'
 import { HeaderAU } from './HeaderAU'
 import { Footer } from './Footer'
 
+
 export const AboutUs = () => {
   return (
     <>
@@ -30,10 +31,10 @@ export const AboutUs = () => {
                 <img src="https://yessicac98.github.io/bit07me/docs/img/me.jpeg" 
                      alt="Desarrolladora Yessica" 
                      class='imgAU'
-                     width={120}
-                     height={150}
+                     width={130}
+                     height={180}
                      />
-                <p>
+                <p className='psAU'>
                   Yessica Camargo
                 </p>
                </a>
@@ -47,10 +48,10 @@ export const AboutUs = () => {
                 <img src="https://jame291104.github.io/bit07me/img/me.jpg" 
                      alt="Desarrollador Jesús" 
                      class='imgAU'
-                     width={120}
-                     height={150} 
+                     width={130}
+                     height={180} 
                      />
-                <p>
+                <p className='psAU'>
                   Jesús Morán
                 </p>
               </a>
@@ -65,9 +66,9 @@ export const AboutUs = () => {
                      alt="Desarrollador Sebastián" 
                      class='imgAU'
                      width={120}
-                     height={150} 
+                     height={180} 
                      />
-                <p>
+                <p className='psAU'>
                   Sebastian Layos
                 </p>
               </a>
@@ -81,10 +82,10 @@ export const AboutUs = () => {
                 <img src="https://diegoparrae.github.io/bit07me/img/me.jpeg" 
                      alt="Desarrollador Diego" 
                      class='imgAU'
-                     width={120}
-                     height={150} 
+                     width={130}
+                     height={180} 
                      />
-                <p>
+                <p className='psAU'>
                   Diego Parra
                 </p>
               </a>

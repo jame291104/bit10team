@@ -12,8 +12,8 @@ export const Navegation = () => {
 
         <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/AboutUs' element={<AboutUs/>} />
         <Route path='/Favorites' element={<Favorites/>} />
+        <Route path='/AboutUs' element={<AboutUs/>} />
         </Routes>
         </BrowserRouter>
     

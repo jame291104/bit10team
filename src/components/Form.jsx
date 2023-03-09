@@ -19,8 +19,12 @@ export const Form = ({lang, setLang, language, setLanguage, rename, setRename}) 
 
     const handleAdd = (e) => {
         e.preventDefault()
-        setLanguage([...language, lang])
-        setLang({id: null, name: "", learned: false})
+        console.log(lang)
+
+        if(lang.name ) {
+            setLanguage([...language, lang])
+            setLang({id: null, name: "", learned: false})
+        }
     }
 
      const handleInputRename = (e) => {
@@ -39,13 +43,13 @@ export const Form = ({lang, setLang, language, setLanguage, rename, setRename}) 
   return (
     <>
     {rename && exists ? ( 
-    <div className="input-group">
-       <input type="text" onInput={handleInputRename} value={exists.name}/>
+    <div className="input-group d-flex flex-row justify-content-center">
+       <input className='inputfav' type="text" onInput={handleInputRename} value={exists.name}/>
        <button onClick={handleClickRename} className="btn btn-outline-secondary" type="button">Rename</button>
     </div>
     ) : ( 
-    <div className="input-group">
-       <input type="text" placeholder="Name of the ...." onInput={handleInput} value={lang.name}/>
+    <div className="input-group d-flex flex-row justify-content-center">
+       <input className='inputfav' type="text" placeholder="Name of the Game" onInput={handleInput} value={lang.name}/>
        <button onClick={handleAdd} className="btn btn-outline-secondary" type="button">Add</button>
     </div>
     )}

@@ -21,11 +21,11 @@ export const HeaderAU = () => {
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/AboutUs'>About Us
+              to='/Favorites'>Favorites
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/Favorites'>Favorites
+              to='/AboutUs'>About Us
             </Link>
             </div>
           </nav>

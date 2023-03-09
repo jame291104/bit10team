@@ -7,13 +7,14 @@ export const Item = ({ id, name, language, setLanguage, rename, setRename }) => 
   };
 
   return (
-    <li className='list-group-item list-group-item-primary'>
+    <li className=' d-flex flex-row justify-content-between align-items-center listaLI'>
+      <p className='picono'>🕹</p>
       {name}
-      <div className='divlist'>
-        <button onClick={deleteLang} type='button' className='btn btn-outline-success'>
+      <div className=' d-flex flex-row justify-content-end divlist'>
+        <button onClick={deleteLang} type='button' className='btn btn-outline-success botonesLI'>
           Delete
         </button>
-        <button onClick={() => setRename(id)} type='button' className='btn btn-outline-dark'>
+        <button onClick={() => setRename(id)} type='button' className='btn btn-outline-dark botonesLI'>
           Rename
         </button>
       </div>

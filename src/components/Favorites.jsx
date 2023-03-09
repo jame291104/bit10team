@@ -1,3 +1,4 @@
+import '../App.css'
 import { useState } from "react";
 import { Form } from "./Form";
 import { List } from "./List";
@@ -13,10 +14,10 @@ export const Favorites = () => {
   return (
     <>
      <HeaderAU/>
-      <div className="App">
-        <div className='Container'>
-          <h1>Welcome To Favorites</h1>
-           <h2>Add all your favorites games</h2>
+      <div className='fondofav contenedorhijofav text-center'>
+        <div className='d-flex flex-column justify-content-center'>
+          <h1 className='hfav'>Welcome To Favorites</h1>
+           <h3 className='text-light'>Add all your favorites games</h3>
 
            <Form lang={lang} setLang={setLang} language={language} setLanguage={setLanguage} rename={rename} setRename={setRename}/>
            <List lang={lang} setLang={setLang} language={language} setLanguage={setLanguage} rename={rename} setRename={setRename}/>
