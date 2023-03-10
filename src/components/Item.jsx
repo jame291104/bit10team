@@ -13,10 +13,10 @@ export const Item = ({ id, name, language, setLanguage, setRename }) => {
       <p className='picono'>🕹</p>
       {name}
       <div className=' d-flex flex-row justify-content-end divlist'>
-        <button onClick={deleteLang} type='button' className='btn btn-outline-success botonesLI'>
+        <button onClick={deleteLang} type='button' className='btn btn-success botonesLI'>
           Delete
         </button>
-        <button onClick={() => setRename(id)} type='button' className='btn btn-outline-dark botonesLI'>
+        <button onClick={() => setRename(id)} type='button' className='btn btn-dark botonesLI'>
           Rename
         </button>
       </div>
