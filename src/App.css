@@ -43,7 +43,7 @@
     justify-content: center;
 }
 .contenedorhijofav{
-    min-height: 100%;
+    min-height: 100vh;
     height: max-content;
 }
 .fondofav{
@@ -51,8 +51,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100%;
-    height: max-content;
+    height: 100%;
     padding-bottom: 30px;
 }
 .hfav{
@@ -105,3 +104,56 @@
 .carrusel{
     border: solid;
 }
+
+/*.responsiveCarrusel{
+    height: 80vh;
+}
+.responsiveCarrusel img{
+    height: 80vh;
+}*/
+.responsiveHeader{
+  width: auto;
+  height: auto;
+}
+
+
+
+@media (max-width: 1000px){
+    .responsiveCarrusel{
+        height: 70vh;
+        width: 100%;
+    }
+    .responsiveCarrusel img{
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 750px){
+    .responsiveCarrusel{
+        height: 40vh;
+        width: 100%;
+    }
+    .responsiveCarrusel img{
+        width: 100%;
+        height: 40vh;
+    }
+}
+@media (max-width: 500px){
+    .responsiveCarrusel{
+        height: 20vh;
+        width: 100%;
+    }
+    .responsiveCarrusel img{
+        width: 100%;
+        height: 20vh;
+    }
+    .responsiveLogo{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+
+
+

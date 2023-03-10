@@ -9,9 +9,9 @@ export const Footer = () => {
     <div className='d-flex d-block flex-row justify-content-around py-4 bg-dark text-white border border-info rounded'>
       <div>
         <img 
-        src="/public/img/logoLibraryGamer.png" 
+        src="/img/logoLibraryGamer.png" 
         alt="logo Library Gamer"
-        className='rounded-circle'
+        className='rounded-circle responsiveLogo'
         width={120}
         height={120} 
         />

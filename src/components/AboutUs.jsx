@@ -9,7 +9,7 @@ export const AboutUs = () => {
     <HeaderAU/>
     
     <div className='bg-light'>
-      <img src="./public/img/TintoFrio.png" alt="logo de Tinto Frio"
+      <img src="/img/TintoFrio.png" alt="logo de Tinto Frio"
            className='rounded mx-auto d-block'
            width={200}
            height={120} 

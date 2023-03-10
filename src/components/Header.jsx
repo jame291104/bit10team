@@ -9,10 +9,10 @@ export const Header = () => {
       <div id='contenedor' className='d-flex flex-column p-1'>
         <div id='navegacion' className='d-flex flex-row justify-content-around border border-info rounded'>
           <figure>
-            <img src="/public/img/logoLibraryGamer.png" alt="Logo Library Gamer"
-                className='rounded-circle'
-                width={120}
-                height={120} 
+            <img src="/img/logoLibraryGamer.png" alt="Logo Library Gamer"
+                className='rounded-circle responsiveLogo'
+                width={100}
+                height={100} 
                 />
           </figure>
           <nav className='d-flex flex-row justify-content-end align-items-center'>
@@ -27,119 +27,119 @@ export const Header = () => {
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/AboutUs'>About Us
+              to='/AboutUs'>Team
             </Link>
             </div>
           </nav>
         </div>
         <div id='carrusel'>
-          <Carousel className='p-2'>
-            <Carousel.Item className='border border-info'>
+          <Carousel className='p-2 responsiveCarrusel'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/Forza.jpeg"
+              src="/img/Forza.jpeg"
               alt="Primera Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/fallguys.png"
+              src="/img/fallguys.png"
               alt="Segunda Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/forniteDJ.jpg"
+              src="/img/forniteDJ.jpg"
               alt="Tercera Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/valorant.webp"
+              src="/img/valorant.webp"
               alt="Cuarta Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/TLOUP1.jpeg"
+              src="/img/TLOUP1.jpeg"
               alt="Quinta Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/RE2.jpeg"
+              src="/img/RE2.jpeg"
               alt="Sexta Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/overwatch2.webp"
+              src="/img/overwatch2.webp"
               alt="Septima Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/NIER.jpeg"
+              src="/img/NIER.jpeg"
               alt="Octava Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/CODW.jpeg"
+              src="/img/CODW.jpeg"
               alt="Novena Imagen"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/pubgimage.webp"
+              src="/img/pubgimage.webp"
               alt="Third slide"
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
               height={600}
-              src="/public/img/apex.jpeg"
+              src="/img/apex.jpeg"
               alt="Third slide"
             />
             </Carousel.Item>
