@@ -2,7 +2,6 @@ import React from 'react'
 import { HeaderAU } from './HeaderAU'
 import { Footer } from './Footer'
 
-
 export const AboutUs = () => {
   return (
     <>
@@ -69,7 +68,7 @@ export const AboutUs = () => {
                      height={180} 
                      />
                 <p className='psAU'>
-                  Sebastian Layos
+                  Sebastian Layos 
                 </p>
               </a>
             </td>
@@ -86,6 +85,7 @@ export const AboutUs = () => {
                      height={180} 
                      />
                 <p className='psAU'>
+                
                   Diego Parra
                 </p>
               </a>

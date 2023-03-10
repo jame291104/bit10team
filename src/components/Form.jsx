@@ -32,6 +32,10 @@ export const Form = ({lang, setLang, language, setLanguage, rename, setRename}) 
             setLang({id: null, name: "", learned: false})
         }
     }
+    if (language.length > 0){
+        localStorage.setItem('language',JSON.stringify(language));
+    }
+    
 
      const handleInputRename = (e) => {
         setExists({...exists, name: e.target.value})

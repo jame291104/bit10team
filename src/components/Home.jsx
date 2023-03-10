@@ -15,8 +15,6 @@ export const Home = () => {
     try {
       const res = await fetch('https://www.freetogame.com/api/games?platform=pc');
       const data = await res.json();
-  
-      console.log(data);
 
       setGames(data)
     } catch (error) {
@@ -26,7 +24,6 @@ export const Home = () => {
 
   const searcher = (e) => {
     setSearch(e.target.value)
-    //console.log(e.target.value)
   }
 
   //filtrado

@@ -1,5 +1,5 @@
 import '../App.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Form } from "./Form";
 import { List } from "./List";
 import { HeaderAU } from "./HeaderAU";
@@ -9,6 +9,14 @@ export const Favorites = () => {
   const [lang, setLang] = useState({id: null, name: "", learned: false})
   const [language, setLanguage] = useState([])
   const [rename, setRename] = useState([null])
+
+  useEffect(() => {
+    if (localStorage.getItem('language')){
+      setLanguage(JSON.parse(localStorage.getItem('language')))
+    }
+   
+  }, [language])
+  
 
   
   return (

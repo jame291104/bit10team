@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const Item = ({ id, name, language, setLanguage, rename, setRename }) => {
+export const Item = ({ id, name, language, setLanguage, setRename }) => {
    const deleteLang = () => {
     const newArray = language.filter((lang) => lang.id !== id);
     setLanguage(newArray);
+      if (newArray.length === 0) localStorage.removeItem('language');
+
   };
 
   return (

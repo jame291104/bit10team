@@ -15,3 +15,4 @@ export const List = ({ language, setLanguage, rename, setRename}) => {
 };
 
 export default List;
+
