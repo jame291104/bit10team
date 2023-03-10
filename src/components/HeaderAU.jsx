@@ -8,7 +8,7 @@ export const HeaderAU = () => {
         <div id='navegacion' className='d-flex flex-row justify-content-around border border-info rounded'>
           <figure>
             <img src="/img/logoLibraryGamer.png" alt="Logo Library Gamer"
-                className='rounded-circle'
+                className='rounded-circle responsiveLogo'
                 width={120}
                 height={120} 
                 />
@@ -25,7 +25,7 @@ export const HeaderAU = () => {
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/AboutUs'>About Us
+              to='/AboutUs'>Team
             </Link>
             </div>
           </nav>

@@ -10,9 +10,9 @@ export const Header = () => {
         <div id='navegacion' className='d-flex flex-row justify-content-around border border-info rounded'>
           <figure>
             <img src="/img/logoLibraryGamer.png" alt="Logo Library Gamer"
-                className='rounded-circle'
-                width={120}
-                height={120} 
+                className='rounded-circle responsiveLogo'
+                width={100}
+                height={100} 
                 />
           </figure>
           <nav className='d-flex flex-row justify-content-end align-items-center'>
@@ -27,14 +27,14 @@ export const Header = () => {
             </Link>
             <Link
               className="h4 p-3 text-decoration-none text-light" 
-              to='/AboutUs'>About Us
+              to='/AboutUs'>Team
             </Link>
             </div>
           </nav>
         </div>
         <div id='carrusel'>
-          <Carousel className='p-2'>
-            <Carousel.Item className='border border-info'>
+          <Carousel className='p-2 responsiveCarrusel'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -44,7 +44,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -54,7 +54,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -64,7 +64,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -74,7 +74,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -84,7 +84,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -94,7 +94,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -104,7 +104,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -114,7 +114,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -124,7 +124,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}
@@ -134,7 +134,7 @@ export const Header = () => {
             />
             </Carousel.Item>
 
-            <Carousel.Item className='border border-info'>
+            <Carousel.Item className='border border-info responsiveCarrusel'>
             <img
               className="d-block w-100 p-1"
               width={1800}

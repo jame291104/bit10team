@@ -47,12 +47,12 @@ export const Home = () => {
   
   return (
     <>
-    <main className='fondo'>
+    <main className='fondo container-fluid px-0'>
       <Header/>
-      <div className='m-5 row justify-content-center'>
-        <h1 className='text-center text-light'>Welcome to Library Gamer</h1>
+      <div className='my-5 row justify-content-center  mx-0'>
+        <h1 className='text-center text-light responsiveHome'>Welcome to Library Gamer</h1>
         <h4 className='text-center text-light'>We have more than 300 games for you</h4>
-        <input value={search} onChange={searcher} type="text" placeholder='Search' className='form-control my-5'/>
+          <div className='container'>  <input value={search} onChange={searcher} type="text" placeholder='Search' className='form-control'/></div>       
         {
           results.map((game) => <Card className='m-4 bg-dark' key={game.id} style={{ width: '18rem' }}>
           <Card.Img className='py-3' variant="top" src={game.thumbnail} />

@@ -11,7 +11,7 @@ export const Footer = () => {
         <img 
         src="/img/logoLibraryGamer.png" 
         alt="logo Library Gamer"
-        className='rounded-circle'
+        className='rounded-circle responsiveLogo'
         width={120}
         height={120} 
         />
