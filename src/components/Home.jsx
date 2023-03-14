@@ -4,6 +4,7 @@ import { Footer } from "./Footer";
 import { useEffect, useState } from "react";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Swal from "sweetalert2";
 
 
 export const Home = () => {
@@ -18,7 +19,12 @@ export const Home = () => {
 
       setGames(data)
     } catch (error) {
-      console.log(error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong! to better experience install CORS google extension or confirm your internet connection',
+        footer: '<a href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf">install</a>'
+      })
     }
   }
 
