@@ -59,11 +59,11 @@
     color: aliceblue;
 }
 .stylelist{
-    padding: 30px 100px 0px 100px;
+    padding: 30px 0px 0px 0px;
 }
 .stylelistUL{
-    margin-left: 100px;
-
+    margin: 0px 10px 0px 10px;
+    padding-left: 100px;
 }
 .inputfav{
     padding: 0px 50px 0px 50px;
@@ -79,10 +79,13 @@
     background-color: #5557c0bb;
     margin-top: 10px;
     font-size: 25px;
-    padding-left: 50px;
+    margin: auto;
     max-width: 100%;
     min-width: 80%;
     width: max-content;
+    padding-left: 10px;
+    margin-bottom: 15px;
+
 }
 .botonesLI{
     border-radius: 20px;

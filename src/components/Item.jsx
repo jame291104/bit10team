@@ -10,7 +10,7 @@ export const Item = ({ id, name, language, setLanguage, setRename }) => {
 
   return (
     <li className=' d-flex flex-row justify-content-between align-items-center listaLI'>
-      <p className='picono'>🕹</p>
+      {/* <p className='picono'>🕹</p> */}
       {name}
       <div className=' d-flex flex-row justify-content-end divlist'>
         <button onClick={deleteLang} type='button' className='btn btn-success botonesLI'>
