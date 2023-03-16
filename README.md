@@ -6,12 +6,13 @@ Desde Gamer library sabemos que hablar de videojuegos no es referirse a un públ
 - Jesús Morán (Lider del equipo, encargado del repositorio y control de versiones en Git y Github)
 - Diego Parra (Encargado de Los Wirefrime de baja y alta)
 - Sebastián Layos (Encargado de la documentación del proyecto)
-- - Yessica Camargo ("Renderización Footer")
+- Yessica Camargo ("Renderización Footer")
 ### Tecnologías
 - HTML
 - CSS
 - JavaScript
 - React
+- Vite
 - Git
 - GitHub
 - Bootstrap
@@ -21,6 +22,7 @@ Desde Gamer library sabemos que hablar de videojuegos no es referirse a un públ
 - Logos-edit
 - Google Meet (reuniones diarias)
 - Trello (Documentación)
+- SweetAlert 2
 
 ### Wireframe Baja
 ![WireFrame Baja Login](public/img/Login.png)
@@ -51,3 +53,20 @@ Desde Gamer library sabemos que hablar de videojuegos no es referirse a un públ
 
 ### Ver proyecto
 https://library-gamer.netlify.app/
+
+### Proceso de instalación de Vite + React
+https://vitejs.dev/guide/
+
+### Comando de instalación de paquetes
+npm install 
+
+### Comando para correr el proyecto en un servidor local (localhost:5173)
+npm run dev
+
+### Sugerencias
+Recuerde tener presentes las tecnologías que se utilizaron para el desarrollo de este proyecto. Si no tiene conocimientos de las mismas, se recomienda tener conocimientos de HTML, CSS, JavaScript, React, Bootstrap y guiarse por medio de la documentación mostrada en la sección de este Readme "Proceso de instalación de Vite + React", antes de clonar este repositorio o hacer uso del código de otra manera.
+
+### Agradecimientos a:
+BIT (Bogota Institute of Technology) y al Docente Javier Garzón (Guía del proyecto)
+
+
