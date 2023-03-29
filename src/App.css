@@ -114,12 +114,18 @@
 .responsiveCarrusel img{
     height: 80vh;
 }*/
-.responsiveHeader{
+/*.responsiveHeader{
   width: auto;
   height: auto;
+}*/
+
+
+@media (max-width: 1600px){
+    .stylelistUL{
+        margin: 0;
+    }
 }
-
-
+    
 
 @media (max-width: 1000px){
     .responsiveCarrusel{

@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export const Header = () => {
   return (
-    <div className='d-flex d-lg-block flex-row justify-content-around py-1 bg-dark text-white'>
+    <div className='d-flex d-lg-block flex-row justify-content-around py-1 bg-dark text-white header'>
       <div id='contenedor' className='d-flex flex-column p-1'>
         <div id='navegacion' className='d-flex flex-row justify-content-around border border-info rounded'>
           <figure>

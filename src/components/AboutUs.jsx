@@ -71,7 +71,7 @@ export const AboutUs = () => {
           </Card.Body>
       </Card>
       <Card className='m-4' style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="https://diegoparrae.github.io/bit07me/img/me.jpeg"
+        <Card.Img variant="top" src="https://diegoparrae.github.io/bit07Me/img/me.jpeg"
         width={286}
         height={370}
         />
@@ -82,7 +82,7 @@ export const AboutUs = () => {
                 <br />
                 - UX/UI Design and CSS's styles of Library Gamer.
               </Card.Text>
-              <a href="https://diegoparrae.github.io/bit07me/" target={'_blank'}><Button variant="primary">See more</Button></a>
+              <a href="https://diegoparrae.github.io/bit07Me/" target={'_blank'}><Button variant="primary">See more</Button></a>
               <a href="https://github.com/DiegoParraE" target={'_blank'}><Button className='mx-2' variant="dark">GitHub <i className="bi bi-github"></i> </Button></a>
           </Card.Body>
       </Card>
